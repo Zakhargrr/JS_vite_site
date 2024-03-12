@@ -1,9 +1,11 @@
 import React from "react"
 import './comp.css'
 
-const Footer = ({children}) =>{
-    return(
-        <div>{children}</div>
+const Footer = () => {
+    return (
+        <div className="footer_main">
+            <h2>Еськова А.А.</h2>
+        </div>
     )
 }
 export default Footer
