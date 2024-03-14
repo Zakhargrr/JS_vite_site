@@ -2,7 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Content from './components/Content'
-import LabList from './components/LabsList'
+import Lablist from './components/LabsList'
 
 function App() {
 
@@ -12,10 +12,9 @@ function App() {
       <Header />
 
       <div className="main_page">
-        <LabList />
+        <Lablist />
         <Content />
       </div>
-
       <Footer />
 
     </>

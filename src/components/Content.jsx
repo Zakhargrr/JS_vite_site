@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from 'react'
 import './comp.css'
 import my_button from "./my_button"
+import { Button } from "@mui/material"
 
 const Content = () => {
     const [count, setCount] = useState(0)
@@ -14,6 +15,9 @@ const Content = () => {
                 <my_button onClick={() => alert("Hello world")}>
                     Выводим alert
                 </my_button>
+                <Button>
+                    Кнопка из MUI
+                </Button>
             </div>
             <p>
                 Это работающие кнопки
