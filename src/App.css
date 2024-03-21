@@ -1,13 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 10%;
-  padding: 2rem;
   text-align: center;
   
 }
 .main_page{
+  margin-top: 30px;
   display: flex;
-  height: 500px;
+  height: 700px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
