@@ -6,6 +6,9 @@ const LabList = () => {
     <div className="labslist_main">
       <h2>Это список лабораторных работ</h2>
       <ul>
+      <li>
+          <Link to="/lab1">1 лабораторная</Link>
+        </li>
         <li>
           <Link to="/lab2">2 лабораторная</Link>
         </li>
