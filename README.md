@@ -1,4 +1,5 @@
-На всякий пожарный прикрепила скриншот Example.png<br>
-Лабораторная 4
+На всякий пожарный прикрепила скриншот Example.png
+Лабораторная 5, смена темы
 
-<br>WARNING! This is test project for my uni
+
+WARNING! This is test project for my uni

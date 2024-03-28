@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./comp.css";
-import { AppBar, IconButton, Toolbar, Typography } from "@mui/material";
-import StarIcon from "@mui/icons-material/Star";
-import { SportsBasketball } from "@mui/icons-material";
+import { AppBar, Toolbar, Typography, Stack, Switch } from "@mui/material";
+import { ThemeContext } from "../providers/ThemeProvider";
 
 const Header = () => {
+  const [theme, setTheme] = useContext(ThemeContext);
+
+  const changeTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
     <div className="header_main">
       <AppBar position="static">
@@ -12,12 +16,11 @@ const Header = () => {
           <Typography fontSize={36} flexGrow={2} fontFamily={"Cambria Math"}>
             Мой Гениальный сайт
           </Typography>
-          <IconButton>
-            <StarIcon></StarIcon>
-          </IconButton>
-          <IconButton>
-            <SportsBasketball />
-          </IconButton>
+          <Stack direction="row" spacing={1} alignItems="center">
+            <Typography>Ночь</Typography>
+            <Switch defaultChecked color="warning" onClick={() => changeTheme()}/>
+            <Typography>День</Typography>
+          </Stack>
         </Toolbar>
       </AppBar>
     </div>

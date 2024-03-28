@@ -1,8 +1,9 @@
 #root {
   text-align: center;
-  
+
 }
-.main_page{
+
+.main_page {
   margin-top: 30px;
   display: flex;
   height: 700px;
@@ -14,3 +15,24 @@
   }
 }
 
+body.light {
+  background-color: #ffffff;
+  color: rgb(22, 32, 168);
+}
+body.light a{
+  color: rgb(22, 32, 168);
+}
+body.light a:hover {
+  color: #41ca1f;
+}
+
+body.dark {
+  background-color: #363446;
+  color: rgb(187, 186, 236);
+}
+body.dark a{
+  color: rgb(187, 186, 236);
+}
+body.dark a:hover {
+  color: #e690d0;
+}
