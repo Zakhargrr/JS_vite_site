@@ -39,6 +39,7 @@ button:focus-visible {
   border-radius: 15px;
   padding: 15px;
   margin-left: 15px;
+  background-color: var(--bg-color);
   /* background-color: #d69a1788; */
 }
 
@@ -56,6 +57,7 @@ button:focus-visible {
   height: inherit;
   margin-left: 15px;
   padding: 15px;
+  background-color: var(--bg-color);
 }
 
 .buttons {

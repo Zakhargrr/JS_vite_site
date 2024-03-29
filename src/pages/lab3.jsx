@@ -16,7 +16,7 @@ const Lab3 = () => {
                 <my_button onClick={() => alert("Hello world")}>
                     Выводим alert
                 </my_button>
-                <Button>
+                <Button variant="outlined">
                     Кнопка из MUI
                 </Button>
             </div>

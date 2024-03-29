@@ -1,4 +1,11 @@
-const getPhotos = (year) => ({
-    type: GET_PHOTOS,
-    payload: year,
-  });
+export const increment = () => {
+  return {
+    type: "INCREMENT",
+  };
+};
+
+export const decrement = () => {
+  return {
+    type: "DECREMENT",
+  };
+};

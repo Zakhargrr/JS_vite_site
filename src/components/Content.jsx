@@ -9,6 +9,7 @@ import Lab5 from "../pages/lab5";
 const Content = () => {
   return (
     <div className="content_main">
+
       <div className="routs">
         <Routes>
           <Route path="/lab1" element={<Lab1 />} />
@@ -18,6 +19,8 @@ const Content = () => {
           <Route path="/lab5" element={<Lab5 />} />
         </Routes>
       </div>
+
+
     </div>
   );
 };

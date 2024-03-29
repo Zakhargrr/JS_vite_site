@@ -16,8 +16,14 @@
 }
 
 body.light {
-  background-color: #ffffff;
+  --bg-color: #ffffffAA;
+  background-color: var(--bg-color);
   color: rgb(22, 32, 168);
+  background-image: url("images/pexels-melchor-gama-631342.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 body.light a{
   color: rgb(22, 32, 168);
@@ -27,12 +33,18 @@ body.light a:hover {
 }
 
 body.dark {
-  background-color: #363446;
-  color: rgb(187, 186, 236);
+  --bg-color: #363446CC;
+  background-color: var(--bg-color);
+  color: #9a9fe6;
+  background-image: url("images/pexels-min-an-713664.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 body.dark a{
-  color: rgb(187, 186, 236);
+  color: #9a9fe6;
 }
 body.dark a:hover {
-  color: #e690d0;
+  color: #d378bc;
 }
