@@ -9,7 +9,8 @@ const Lab3 = () => {
     return (
         <div>
             <div className="buttons">
-                <h2>В этой лабораторной нужно было сделать свои кнопки-компоненты и ссылки-навигацию</h2>
+                <h2>Это Лаб 3</h2>
+                <p>В ней нужно было сделать свои кнопки-компоненты и ссылки-навигацию</p>
                 <my_button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </my_button>
